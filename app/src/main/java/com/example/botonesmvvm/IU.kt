@@ -154,7 +154,7 @@ fun Boton(miViewModel: MyViewModel) {
                     var _numero = (0..10).random()
                     Log.d(TAG_LOG, "Dentro del onClick $_numero")
                 },
-                //HACER EL BOTON CUADRADO
+                //HACER EL BOTON CUADRADO!
                 modifier = Modifier
                     .size(100.dp)
                     .clip(shape = RoundedCornerShape(0.dp)), // Esquinas cuadradas
